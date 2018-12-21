@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>拉勾网</title>
+		<link rel="stylesheet" type="text/css" href="../css/login.css"/>
+		<script src="../js/jquery-1.12.4.min.js"></script>
+		<script src="../js/login.js"></script>
+	</head>
+	<body>
+		<header class="sso_header">
+			<a class="logo" href="#"></a>
+		</header>
+		<section class="content_box clearfix">
+			<div class="left_area fl">
+				<div class="form_header">
+					<ul class="clearfix">
+						<li class="fl active">密码登录</li>
+						<li class="fr">验证码登录</li>
+					</ul>
+					<span class="tab_active"></span>
+				</div>
+				<div class="form_body">
+					<form >
+						<div class="input_item">
+							<input type="text" class="input_white" id="loginName"  placeholder="请输入常用手机号/邮箱" />
+							<span class="input_tips" style="display: none;">请输入已验证手机/邮箱</span>
+						</div>
+						<div class="input_item">
+							<input type="password" class="input_white" id="loginPsd" placeholder="请输入密码" />
+						</div>
+						<div class="input_item clearfix">
+							<a href="#" class="forgot_pwd">忘记密码？</a>
+						</div>
+						<div class="input_item login_btn">
+							<input type="submit" class="btn_green" id="submit_btn" value="登&nbsp录" />
+						</div>
+					</form>
+				</div>
+				<div class="form_body">
+					<form style="display:none;">
+						<div class="input_item clearfix">
+							<span class="area_code">0086</span>
+							<input type="text" class="input_white"  placeholder="请输入常用手机号" />
+							<span class="input_tips" style="display: none;">请输入已验证手机</span>
+						</div>
+						<div class="input_item">
+							<div class="input_group  clearfix">
+								<input type="text" class="input_white fl" placeholder="请输入验证码" />
+								<input type="button" class="btn fr"  value="获取验证码" />
+							</div>
+						</div>
+						<div class="input_item login_btn">
+							<input type="submit" class="btn_green"  value="登&nbsp录" />
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="divider fl">
+				
+			</div>
+			<div class="right_area fl">
+				<h5>还没有账号：</h5>
+				<a href="common.html"  class="register_now">立即注册</a>	
+				<h5>使用以下账号立即登陆:</h5>
+				<ul class="vender_login  clearfix">
+					<li><a href="#" class="vender_icon icon_sina"></a></li>
+					<li><a href="#" class="vender_icon icon_wechat"></a></li>
+					<li><a href="#" class="vender_icon icon_qq"></a></li>
+					<li><a href="#" class="vender_icon icon_baidu"></a></li>
+				</ul>
+				
+			</div>
+		</section>
+		
+	</body>
+</html>
